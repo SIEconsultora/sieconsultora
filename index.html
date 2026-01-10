@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIE Consultora | Higiene, Seguridad y Medio Ambiente</title>
+
+<meta name="description" content="SIE Consultora. Servicios profesionales de Higiene, Seguridad y Medio Ambiente en Necochea y zona.">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--primary:#ff6200;
+--secondary:#0a5c9e;
+--dark:#0f172a;
+--gray:#334155;
+--light:#f8fafc;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:'Inter',sans-serif;
+background:var(--dark);
+color:var(--light);
+line-height:1.6;
+}
+
+header{
+position:fixed;
+top:0;left:0;right:0;
+background:rgba(15,23,42,.95);
+padding:1rem 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+font-size:1.6rem;
+font-weight:700;
+color:var(--primary);
+}
+
+nav a{
+color:white;
+margin-left:2rem;
+text-decoration:none;
+font-weight:500;
+}
+nav a:hover{color:var(--primary);}
+
+section{padding:8rem 5%;}
+
+#hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
+url('https://images.unsplash.com/photo-1503387762-592deb58caa5?auto=format&fit=crop&w=1920&q=80')
+center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:clamp(2.8rem,6vw,4.5rem);
+margin-bottom:1rem;
+}
+.hero h2{
+color:var(--primary);
+margin-bottom:2rem;
+}
+.btn{
+background:var(--primary);
+color:white;
+padding:1rem 2.2rem;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+display:inline-block;
+}
+.btn:hover{background:#ff7a1f;}
+
+.section-title{
+text-align:center;
+font-size:2.6rem;
+color:var(--primary);
+margin-bottom:4rem;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:2rem;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:var(--gray);
+padding:2rem;
+border-radius:16px;
+border:1px solid rgba(255,98,0,.2);
+}
+.card h3{color:var(--primary);margin-bottom:1rem;}
+
+#cta{
+background:linear-gradient(135deg,var(--secondary),#0d4a7e);
+text-align:center;
+}
+
+footer{
+background:#0a0f1a;
+text-align:center;
+padding:3rem 5%;
+color:#94a3b8;
+}
+
+/* WhatsApp fijo */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+padding:1rem 1.3rem;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+z-index:2000;
+}
+
+@media(max-width:768px){
+nav{display:none;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">SIE CONSULTORA</div>
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#porque">Nosotros</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section id="hero">
+<div class="hero">
+<h1>Tu Seguridad<br>Es Nuestra Prioridad</h1>
+<h2>Higiene, Seguridad y Medio Ambiente</h2>
+<p>Lucas Ojeda · Julián Leoz<br>Necochea y zona</p><br>
+<p style="font-style:italic;">Prevención legal. Seguridad real.</p><br>
+<a href="#contacto" class="btn">Asesoramiento sin cargo</a>
+</div>
+</section>
+
+<section id="servicios">
+<h2 class="section-title">Servicios</h2>
+<div class="grid">
+<div class="card">
+<h3>Mediciones y Protocolos</h3>
+<p>Ruido · Iluminación · Agua · Agentes químicos · Ergonomía y mucho más.</p>
+</div>
+<div class="card">
+<h3>Industria · Obras · Agro</h3>
+<p>Programas de seguridad · Auditorías · Gestión ART · Habilitaciones y mucho más.</p>
+</div>
+<div class="card">
+<h3>Capacitaciones</h3>
+<p>RCP · Incendios · Simulacros · Cursos In Company y mucho más.</p>
+</div>
+</div>
+</section>
+
+<section id="porque">
+<h2 class="section-title">Nuestra Consultora</h2>
+<div class="grid">
+<div class="card">
+<h3>🎯 Misión</h3>
+<p>
+Brindar servicios profesionales de Higiene, Seguridad y Medio Ambiente, orientados a la prevención real de riesgos laborales, el cumplimiento normativo y la protección de las personas, acompañando a cada cliente con soluciones técnicas claras, responsables y aplicables.
+</p>
+</div>
+
+<div class="card">
+<h3>🚀 Visión</h3>
+<p>
+Consolidarnos como una consultora de referencia en la región, reconocida por su seriedad profesional, compromiso legal y enfoque preventivo, aportando valor sostenible a las empresas y cuidando el bienestar de los trabajadores.
+</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Respaldo Normativo</h2>
+<div class="grid">
+<div class="card">✔ Ley 19.587</div>
+<div class="card">✔ Decreto 351/79</div>
+<div class="card">✔ Resoluciones SRT</div>
+<div class="card">✔ Trabajo con ART</div>
+</div>
+</section>
+
+<section id="cta">
+<h2 class="section-title" style="color:white;">Contacto</h2>
+<p style="font-size:1.3rem;margin-bottom:2rem;">
+📧 SIEconsultora@outlook.com<br>
+📸 Instagram: @sie.consultora
+</p>
+
+<div style="display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;">
+<a class="btn" href="https://wa.me/5492262572930" target="_blank">WhatsApp Lucas Ojeda</a>
+<a class="btn" href="https://wa.me/5492262314559" target="_blank">WhatsApp Julián Leoz</a>
+<a class="btn" href="https://www.instagram.com/sie.consultora/" target="_blank">Instagram</a>
+</div>
+</section>
+
+<footer>
+© 2026 SIE Consultora · Higiene, Seguridad y Medio Ambiente · Necochea
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/5492262572930" target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
